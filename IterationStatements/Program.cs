@@ -97,7 +97,14 @@
         //Call the methods to test them in the Main method below
         static void Main(string[] args)
         {
-            
+            PrintThroughOneThousand();
+            IncrementByThree();
+            IntegerCheck(1, 1);
+            EvenOrOdd(2);
+            PositiveOrNegative(-2);
+            AgeCheck();
+            RangeCheck();
+            MultTable();
         }
     }
 }
